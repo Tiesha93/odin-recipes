@@ -1,34 +1,59 @@
+/*index.html*/
 body {
- background-color: aqua;
- font-family: Verdana, Geneva, Tahoma, sans-serif;
- font-size: large;
- text-align: center;
+    font-family: 'Noto Serif', serif;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header {
-    border-style: dotted; 
-    font-size: x-large;
+    background-color: #fc6603;
+    color: #7a6658;
+    font-weight: bold;
+    font-size: 35px;
+    border-radius: 25px 25px;
+    border-style: outset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
 
 .container {
     display: flex;
     justify-content: center;
-    
-    font-size: x-large;
-    margin-top: 100px;
-    gap: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: #7a6658;
+    font-size: 25px;
+    border-radius: 5px 5px;
+    border-style: outset;
 }
 
 ul {
     list-style: none;
-    list-style-type: none;  
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 14px;
 }
 
-a {
+.image {
+    width: 400px;
+    height: 400px;
+}
+
+.list {
     display: flex;
-   color: black;
-    text-decoration: none;
-    
-    
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/*lasagna.html*/
+body {
+    font-family: 'Noto Serif', serif;
+    margin: 0px;
+    padding: 0px;
 }
 
