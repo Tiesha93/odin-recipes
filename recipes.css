@@ -6,7 +6,7 @@ body {
 }
 
 .header {
-    background-color: #fc6603;
+    background-color: #e4cba3;
     color: #7a6658;
     font-weight: bold;
     font-size: 35px;
@@ -50,10 +50,4 @@ ul {
     margin-top: 20px;
 }
 
-/*lasagna.html*/
-body {
-    font-family: 'Noto Serif', serif;
-    margin: 0px;
-    padding: 0px;
-}
 
