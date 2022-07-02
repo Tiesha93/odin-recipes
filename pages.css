@@ -123,3 +123,54 @@ body {
 .stepsG {
   color: #212511;
 }
+
+/*milkshake.html*/
+body {
+  font-family: 'Noto Serif', serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.headerM {
+  display: flex;
+  justify-content: center;
+  margin: 25px 25px 30px;
+  color: #240605;
+}
+
+.descriptionM {
+  margin-left: 350px;
+  font-weight: lighter;
+  color: #240605;
+ }
+
+ .mainM {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 350px;
+  color: #240605;
+}
+
+.designM {
+  background-color: #821a17;
+  margin: 20px 420px;
+  height: 15px;
+}
+
+.recipeM{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 350px;
+  margin-right: 345px;
+  gap: 100px;
+}
+
+.ingredientsM {
+  color: #240605;
+}
+
+.stepsM {
+  color: #240605;
+}
