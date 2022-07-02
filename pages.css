@@ -1,3 +1,4 @@
+/*lasagna.html*/
 body {
   font-family: 'Noto Serif', serif;
   margin: 0px;
@@ -23,7 +24,6 @@ body {
   margin: 25px 350px;
   color: #3c1813;
 }
-
 
 h2 {
   margin: 0px;
@@ -72,4 +72,54 @@ ol{
 
 .steps {
   color: #3c1813;
+}
+/*garlic-bread.html*/
+body {
+  font-family: 'Noto Serif', serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+.headerG {
+  display: flex;
+  justify-content: center;
+  margin: 25px 25px 30px;
+  color: #212511;
+}
+
+.descriptionG {
+  margin-left: 350px;
+  font-weight: lighter;
+  color: #212511;
+ }
+
+ .mainG {
+  display: flex;
+  justify-content: space-between;
+  margin: 25px 350px;
+  color: #212511;
+}
+
+.designG {
+  background-color: #6e7e2f;
+  margin: 20px 420px;
+  height: 15px;
+}
+
+.recipeG {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 350px;
+  margin-right: 345px;
+  gap: 100px;
+}
+
+.ingredientsG {
+  color: #212511;
+}
+
+.stepsG {
+  color: #212511;
 }
